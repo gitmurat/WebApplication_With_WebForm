@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../styles/main.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Form</h1>
+
+    <div class="txt20">
+        
+        <!--<form action="20_WebForm_Form.aspx" method="post">-->
+        <form action="30_WebForm_QueryString.aspx" method="get">
+            <input type="hidden" name="MusteriID" value="123456" />
+
+            Adı:<br />
+            <input name="adi" value="Murat" /> <br /><br />
+
+            Soyadı:<br />
+            <input name="soyadi" value="Kurt" /><br /><br />
+                                                      
+            Telefon:<br />
+            <input name="telefon" value="555 12 30" /><br /><br />
+
+            Bilgi:<br />
+            <input name="bilgi" value="Murat güzel adamdır" /><br /><br />
+
+            <hr />
+            <input type="submit" value="Gönder" />
+        </form>
+        
+    </div>
+</body>
+</html>
